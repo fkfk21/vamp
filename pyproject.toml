@@ -35,3 +35,19 @@ cmake.build-type = "Release"
 [tool.scikit-build.cmake.define]
 VAMP_LTO = "ON"
 # VAMP_FORCE_CLANG = "ON"
+
+
+[tool.poetry]
+name = "vamp"
+version = "0.2"
+description = "Vector-Accelerated Motion Planner"
+authors = [
+    "Zachary Kingston <zak@rice.edu>",
+    "Wil Thomason <wil.thomason@gmail.com>",
+    "Clayton Ramsey <claytonwramsey@gmail.com>"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+
